@@ -59,6 +59,24 @@ body {
   transform: scale(0.98);
 }
 
-canvas {
-  cursor: crosshair;
+.color__btns #transparent {
+  background-color: #999;
+  background-image: linear-gradient(
+      45deg,
+      #666 25%,
+      transparent 25%,
+      transparent 75%,
+      #666 75%,
+      #666
+    ),
+    linear-gradient(
+      45deg,
+      #666 25%,
+      transparent 25%,
+      transparent 75%,
+      #666 75%,
+      #666
+    );
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
 }

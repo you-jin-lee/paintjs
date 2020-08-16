@@ -81,6 +81,7 @@ function handleSaveClick() {
   link.download = "PaintJS🥽";
   link.click();
 }
+
 if (canvas) {
   canvas.addEventListener("mousemove", onMouseMove);
   canvas.addEventListener("mousedown", startPainting);
